@@ -37,8 +37,27 @@ export const theme = extendTheme({
 
         }
 
+    }, 
+
+    styles : { 
+        global: { 
+            '*' : { 
+                
+                padding: "0px",
+                margin: '0px', 
+                boxSizing: 'border-box'
+            },
+            'html, body': { 
+
+                fontFamily: 'Roboto', 
+                
+            }, 
+              
+              ':root' : { 
+
+                fontSize: '62.5%'
+              }
+        }   
     }
-
-
 
 })  
