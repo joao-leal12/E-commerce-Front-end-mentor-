@@ -5,7 +5,7 @@ import {
     Stack,
     IconButton, 
     Image,
-    Button,
+
   
   } from '@chakra-ui/react'  
 
@@ -39,13 +39,14 @@ export const  NavElements : React.FC = () => {
         
     
         </Stack> 
-        <Stack direction="row"> 
+        <Stack direction="row" spacing="1.9rem" justify="center"> 
           <IconButton 
             aria-label="open-car-of-buy"
             icon={<AiOutlineShoppingCart/>}
-            variant="none"
-            fontSize="2rem" 
-
+            variant="none" 
+            color="dark.grayBlue"
+            fontSize="2.3rem" 
+            minWidth="1px"
           />
         <IconButton aria-label='open-profile-settings' variant="none">
 

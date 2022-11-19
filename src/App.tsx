@@ -3,7 +3,7 @@
   import { Hero } from './components/Hero';
   export const App : React.FC = () => {
     return (
-      <Container maxW="375px" p="0">
+      <Container maxW="375px" p="0" position="relative">
           <Header/> 
           <Hero/> 
       </Container>
