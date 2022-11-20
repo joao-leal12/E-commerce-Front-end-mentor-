@@ -35,6 +35,11 @@ export const theme = extendTheme({
             900: '#fff', 
             gray: 'hsl(223, 64%, 98%)' , 
 
+        }, 
+
+        gray: { 
+            100: "#8F9095"
+
         }
 
     }, 
