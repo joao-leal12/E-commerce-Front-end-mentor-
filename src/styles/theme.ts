@@ -38,7 +38,9 @@ export const theme = extendTheme({
         }, 
 
         gray: { 
-            100: "#8F9095"
+            100: "#8F9095",
+            hover: '#69696A' 
+            
 
         }
 

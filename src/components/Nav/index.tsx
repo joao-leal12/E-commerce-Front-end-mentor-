@@ -1,12 +1,19 @@
 import { NavElements } from '../NavElements'
 import { chakra } from '@chakra-ui/react'  
+import {useState, useEffect} from 'react'
 
 
+export const Nav : React.FC= () => { 
+  const [activeMenu, setActiveMenu] = useState<boolean>(false )
+    function handleClick () : void { 
 
-export const Nav : React.FC= () => {
-  return (
+        setActiveMenu(!activeMenu)
+
+    }
+
+  return (  
     <chakra.nav>
-        <NavElements/>   
+        <NavElements menu={activeMenu} handleClick={handleClick}/>   
     </chakra.nav>
   )
 }

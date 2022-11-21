@@ -3,7 +3,7 @@ import { BuySection } from "../BuySection"
 
 export const Hero : React.FC = () => {
   return (
-    <Grid templateColumns="1fr" pt="5rem" overflow="hidden" > 
+    <Grid templateColumns={['1fr', '1fr', 'repeat(2, 1fr)']} pt="5rem" overflow="hidden" > 
         <Flex> 
           
           <Image src="./src/assets/images/image-product-1.jpg"/> 

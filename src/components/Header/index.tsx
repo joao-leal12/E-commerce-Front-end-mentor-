@@ -7,8 +7,8 @@ export const Header = () => {
    <chakra.header 
     py="2.5rem"
     position="fixed" 
-    width="100%"  
-    maxW="37.5rem"
+    maxW={['37.5rem', '100rem']}
+    width="100%"   
     zIndex={1}
     bg="light.gray"
     > 
