@@ -16,12 +16,10 @@ export const theme = extendTheme({
         heading: "Roboto"
     },
 
-    colors: { 
+    colors: {
 
-        brand: { 
-
-            100: 'hsl(26, 100%, 55%)' 
-        }, 
+        orangeDefaultTheme: "#FF7D1C", 
+         
 
         dark : { 
             

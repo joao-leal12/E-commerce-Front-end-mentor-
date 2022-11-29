@@ -5,12 +5,12 @@ import {  chakra } from '@chakra-ui/react'
 export const Header = () => {
   return (
    <chakra.header 
-    py="2.5rem"
-    position="fixed" 
+    py="5.3rem"
+    position={['fixed', 'fixed', 'sticky', 'sticky']} 
     maxW={['37.5rem', '100rem']}
     width="100%"   
     zIndex={1}
-    bg="light.gray"
+   
     > 
     
       <Nav/> 

@@ -5,7 +5,8 @@ import {useState, useEffect} from 'react'
 
 export const Nav : React.FC= () => { 
   const [activeMenu, setActiveMenu] = useState<boolean>(false )
-    function handleClick () : void { 
+  
+  function handleClick () : void { 
 
         setActiveMenu(!activeMenu)
 
