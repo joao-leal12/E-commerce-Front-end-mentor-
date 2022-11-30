@@ -5,7 +5,7 @@ export const HeroInfors = () => {
   return (
     <Flex direction="column" px="2.7rem">
           <Text 
-            color="orangeDefaultTheme" 
+            color="orange.100" 
             fontWeight="bolder" 
             mt="2.6rem" 
             fontSize="1.6rem"

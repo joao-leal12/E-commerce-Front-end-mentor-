@@ -18,7 +18,7 @@ export const theme = extendTheme({
 
     colors: {
 
-        orangeDefaultTheme: "#FF7D1C", 
+        orange: {100: '#FF7C1D'}, 
          
 
         dark : { 
